@@ -1,0 +1,38 @@
+body {
+    background-image: url('bg.webp');
+    background-size: cover;   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(44, 80, 212); 
+    margin: 0;
+    height: 100vh;
+
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    gap: 20px;                
+}
+
+button,
+.menu {
+    background-color: rgb(235, 211, 35);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 23%;
+    width: 156px;
+    height: 50px;
+    cursor: pointer;
+}
+
+button:hover,
+.menu:hover {
+    background-color: #0056b3;  
+}
